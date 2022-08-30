@@ -1,0 +1,68 @@
+versions= [
+    {
+    versionNo: "8.5.10.0",
+    versionName:"MIUI 8",
+    Releasedate: "16/06/2016",
+    Bugs: [],
+    features:["UI minor changes,updated system apps,Dual app support"],
+    Authors: [""],
+    Type : "Major"
+},
+{
+    versionNo: "9.6.5.0",
+    versionName:"MIUI 9",
+    Releasedate: "10/08/2017",
+    Bugs: [],
+    features:["Split screen added,improved notification shade,New silent mode,Face unlock added"],
+    Authors: [""],
+    Type : "Major"
+},
+{
+    versionNo: "10.4.5.0",
+    versionName:"MIUI 10",
+    Releasedate: "19/06/2018",
+    Bugs: [],
+    features:["Higher integration with Xiaomi,Dropped devices running Android lolipop or below"],
+    Authors: [""],
+    Type : "Major"
+},
+{
+    versionNo: "11.0.14.0",
+    versionName:"MIUI 11",
+    Releasedate: "22/10/209",
+    Bugs: [],
+    features:["Droped devices running Android marshmellow, system-wide dark mode,with dark mode sheduling,Monochrome ultra power saving mode,New icon,smoother animation"],
+    Authors: [""],
+    Type : "Major"
+},
+{
+    versionNo: "12.2.7.0",
+    versionName:"MIUI 12",
+    Releasedate: "27/04/2020",
+    Bugs: [],
+    features:["App drawer for first time,AI help for calls,More privacy focused,new camera & gallery filters,Added floating windows"],
+    Authors: [""],
+    Type : "Major"
+},
+{
+    versionNo: "12.5.5.0",
+    versionName:"MIUI 12.5",
+    Releasedate: "28/12/2020",
+    Bugs: [],
+    features:["Impprovements for Mi notes,Added New super wallpapers,new Mi notes icon"],
+    Authors: [""],
+    Type : "Major"
+},
+{
+    versionNo: "13.0.32.0",
+    versionName:"MIUI 13",
+    Releasedate: "28/12/2021",
+    Bugs: [],
+    features:["New live walpaper,Added sidebar,improved multitasking on tablets"],
+    Authors: [""],
+    Type : "Major"
+}]
+numberofversions = 0
+for(i in version){
+    
+}
