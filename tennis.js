@@ -142,7 +142,7 @@ function allMatchSchedule(){
         let allMatch={
             "LEAGUES":fixtures(),
             "QUALIFIER":matchesForQualifers(),
-            "SEMIFINAL":findSemiFinalMatches(),
+            "SEMIFINAL":findFinalMatches(),
             "FINAL":semiFinal()
         }
         console.table(allMatch);
@@ -150,7 +150,7 @@ function allMatchSchedule(){
         let allMatch={
             "LEAGUES":fixtures(),
             "SEMIFINAL":matchesForQualifers(),
-            "FINAL":semiFinal(),
+            "FINAL":findFinalMatch(),
         }
         console.table(allMatch);
     }else if(tournment.length==4){
